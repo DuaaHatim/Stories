@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <title>إصدارات  بطريقة  برايل</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <style>
+
+/* .contact {
+  display: flex;
+  align-items: center;
+} */
+
+/* .contact img {
+  margin-left: 10px;
+} */
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "OpenDyslexicArabic-Bold", Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+  line-height: 0.5; /* Reduce line spacing */
+  text-transform: uppercase;
+  direction: rtl;
+}
+
+h1 img {
+  max-width: 15%; /* Make image smaller */
+  height: auto;
+   margin-bottom: -1rem; /* Reduce margin-bottom */
+   padding-bottom: 0rem;
+}
+
+
+      /* Style the header */
+header {
+  background-color: #ffffff; /* set your desired background color */
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  height: auto;
+  max-width: 50%;
+}
+
+	/* Set up a grid layout with 8 columns by default */
+	.grid-container {
+  	display: grid;
+  	grid-template-columns: repeat(8, 1fr);
+  	grid-gap: 20px;
+	}
+
+
+	/* Style each book cover image */
+	.grid-item img {
+  	width: 100%;
+  	height: auto;
+  	display: block;
+	}
+ 
+
+      /* Style the footer */
+/* footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 16px;
+} */
+
+/* .footer-column {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+} */
+
+
+/* @media only screen and (min-width: 600px) {
+  .footer-column {
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+} */
+
+/* .footer-column h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+} */
+
+/* .heading2{
+font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align:center;
+} */
+
+
+footer {
+ /* background-color: #333;
+  color: #fff;
+  padding: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-left h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+
+.download-icons {
+  display: flex;
+}
+
+.download-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	margin-left:10px;
+}
+
+.footer-right h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+	/* Change the grid layout to 4 columns on iPad portrait screens */
+	@media only screen and (max-width: 768px) {
+  	.grid-container {
+    	grid-template-columns: repeat(4, 1fr);
+  	}
+ h1 {
+    font-size: 2.5rem;
+  }
+	}
+
+	/* Change the grid layout to 2 columns on mobile screens */
+	@media only screen and (max-width: 480px) {
+  	.grid-container {
+   	 grid-template-columns: repeat(2, 1fr);
+ 	 }
+
+	 h1 {
+    	font-size: 2rem;
+  	}
+	}
+
+
+    </style>
+  </head>
+  <body>
+<header>
+  <div class="logo">
+    <img src="HTML-FOLDER/images/org-logo.jpg" alt="شِعَارُ مُؤَسَّسَةُ زَايِدٍ الْعُلْيَا لِأَصْحَابِ الْهِمَمِ">
+  </div>
+</header>
+
+	<h1>
+  		<img src="HTML-FOLDER/images/project-logo.jpg" alt="إِهْداءٌ لِأَنَامِلَ تَقْرَأُ"><br>
+		50 إصداراً بطريقة برايل</h1>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="HTML-FOLDER/01_أبي_الكناري_الكبير.html">
+          <img src="HTML-FOLDER/images/01_أبي_الكناري_الكبير.png" alt="قِصَّةُ أَبِي الْكَنَارِيُّ الْكَبِيرُ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/02_حلم_شجاع.html">
+          <img src="HTML-FOLDER/images/02_حلم_شجاع.png" alt="قِصَّةُ حُلْمُ شُجَاعٍ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/03_الألعاب_الشعبية_بالإمارات.html">
+          <img src="HTML-FOLDER/images/03_الألعاب_الشعبية_بالإمارات.png" alt="قِصَّةُ الْأَلْعَابِ الشَّعْبِيَّةِ بِالْإِمَارَاتِ">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="HTML-FOLDER/04_أصوات_العالم.html">
+          <img src="HTML-FOLDER/images/04_أصوات_العالم.png" alt="قِصَّةُ أَصْوَاتُ الْعَالَمِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/05_أقواس_الصداقة.html">
+          <img src="HTML-FOLDER/images/05_أقواس_الصداقة.png" alt="قِصَّةُ أَقْوَاسُ الصَّدَاقَةِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/06_البائع_الصغير.html">
+          <img src="HTML-FOLDER/images/06_البائع_الصغير.png" alt="قِصَّةُ الْبَائِعِ الصَّغِيرِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/07_الدينوراف.html">
+          <img src="HTML-FOLDER/images/07_الدينوراف.png" alt="قِصَّةُ الدِّينُورَافِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/08_الصبي_والظلام.html">
+          <img src="HTML-FOLDER/images/08_الصبي_والظلام.png" alt="قِصَّةُ الصَّبِيِّ وَالظَّلَامِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/09_المشروع_الجديد.html">
+          <img src="HTML-FOLDER/images/09_المشروع_الجديد.png" alt="قِصَّةُ المَشُرُوعِ الْجَدِيدِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/10_المنطاد_العجيب.html">
+          <img src="HTML-FOLDER/images/10_المنطاد_العجيب.png" alt="قِصَّةُ الْمِنْطَادِ الْعَجِيبِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/11_النمر_الأرقط.html">
+          <img src="HTML-FOLDER/images/11_النمر_الأرقط.png" alt="قِصَّةُ النَّمِرِ الْأَرْقَطِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/12_أنا_هاني_وماما_مشهورة.html">
+          <img src="HTML-FOLDER/images/12_أنا_هاني_وماما_مشهورة.png" alt="قِصَّةُ أَنَا هَانِي وَمَامَا مَشْهُورَةٌ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/13_تصبحون_على_خير.html">
+          <img src="HTML-FOLDER/images/13_تصبحون_على_خير.png" alt="قِصَّةُ تُصْبِحُونَ عَلى خَيْرٍ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/14_حكيم_العرب.html">
+          <img src="HTML-FOLDER/images/14_حكيم_العرب.png" alt="قِصَّةُ حَكِيمُ الْعَرَبِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/15_خيمة_أمل.html">
+          <img src="HTML-FOLDER/images/15_خيمة_أمل.png" alt="قِصَّةُ خَيْمَةُ أَمَلٍ">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="HTML-FOLDER/16_رحلة_ورقة.html">
+          <img src="HTML-FOLDER/images/16_رحلة_ورقة.png" alt="قِصَّةُ رِحْلَةُ وَرَقَةٍ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/17_زجاجات_الشمس.html">
+          <img src="HTML-FOLDER/images/17_زجاجات_الشمس.png" alt="قِصَّةُ زُجَاجَاتُ الشَّمْسِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/18_ساقي_الماء.html">
+          <img src="HTML-FOLDER/images/18_ساقي_الماء.png" alt="قِصَّةُ سَاقِي الْمَاءِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/19_شجرة_الأحذية.html">
+          <img src="HTML-FOLDER/images/19_شجرة_الأحذية.png" alt="قِصَّةُ شَجَرَةُ الْأَحْذِيَةِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/20_شهيد_الإمارات_الأول.html">
+          <img src="HTML-FOLDER/images/20_شهيد_الإمارات_الأول.png" alt="قِصَّةُ شَهِيدُ الْإِمَارَاتِ الْأَوَّلِ">
+        </a>
+	</div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/21_هيفاء_ملكة_الأزياء.html">
+          <img src="HTML-FOLDER/images/21_هيفاء_ملكة_الأزياء.png" alt="قِصَّةُ هَيْفَاءُ مَلِكَةُ الْأَزْيَاءِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/22_وحش_في_بيتنا.html">
+          <img src="HTML-FOLDER/images/22_وحش_في_بيتنا.png" alt="قِصَّةُ وَحْشٌ فِي بَيْتِنَا">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/23_صندوق_من_كلام.html">
+          <img src="HTML-FOLDER/images/23_صندوق_من_كلام.png" alt="قِصَّةُ صَنْدُوقٌ مِنْ كَلَامِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/24_غافتان.html">
+          <img src="HTML-FOLDER/images/24_غافتان.png" alt="قِصَّةُ غَافَتَانِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/25_لا_أحد_يلعب_معي.html">
+          <img src="HTML-FOLDER/images/25_لا_أحد_يلعب_معي.png" alt="قِصَّةُ لَا أَحَدَ يَلْعَبُ مَعِي">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/26_لعبة_النجوم.html">
+          <img src="HTML-FOLDER/images/26_لعبة_النجوم.png" alt="قِصَّةُ لُعْبَةُ النُّجُومِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/27_ما_هذا_الصوت.html">
+          <img src="HTML-FOLDER/images/27_ما_هذا_الصوت.png" alt="قِصَّةُ مَا هَذَا الصَّوْتِ">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/28_ممنوع_دخول_الكبار.html">
+          <img src="HTML-FOLDER/images/28_ممنوع_دخول_الكبار.png" alt="قِصَّةُ مَمْنُوعُ دُخُولِ الْكِبَارِ">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/29_ها_أنا_ذا.html">
+          <img src="HTML-FOLDER/images/29_ها_أنا_ذا.png" alt="قِصَّةُ هَا أَنَا ذَا">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/30_هل_سأطير.html">
+          <img src="HTML-FOLDER/images/30_هل_سأطير.png" alt="قِصَّةُ هَلْ سَأَطِيرُ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/31_هواية_مها.html">
+          <img src="HTML-FOLDER/images/31_هواية_مها.png" alt="قِصَّةُ هِوَايَةُ مَهَا">
+        </a>
+      </div>      
+
+	<div class="grid-item">
+        <a href="HTML-FOLDER/32_نجوم_بدرية.html">
+          <img src="HTML-FOLDER/images/32_نجوم_بدرية.png" alt="قِصَّةُ نُجُومُ بَدْرِيَّة">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/33_رسائل_في_زمن_مختلف.html">
+          <img src="HTML-FOLDER/images/33_رسائل_في_زمن_مختلف.png" alt="قِصَّةُ رَسَائِلُ في زَمَنٍ مُخْتَلِفٍ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/34_أتمنى_أن_أختفي.html">
+          <img src="HTML-FOLDER/images/34_أتمنى_أن_أختفي.png" alt="قِصَّةُ أَتَمَنَّى أَنْ أَخْتَفِي">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML -FOLDER/35_خطة العميل_أوناي.html">
+          <img src="HTML-FOLDER/images/35_خطة_العميل_أوناي.png" alt="قِصَّةُ خُطَّةُ الْعَمِيلِ أُونَاي 97">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/37_بعيد_المنال.html">
+          <img src="HTML-FOLDER/images/37_بعيد_المنال.png" alt="مَجْمُوعَةٌ قَصَصِيَّةٌ بَعِيدُ الْمَنَالِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/38_راعي_غوالي.html">
+          <img src="HTML-FOLDER/images/38_راعي_غوالي.png" alt="رِوَايَةُ رَاعِي غَوَالِي">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/39_حمام_الدار.html">
+          <img src="HTML-FOLDER/images/39_حمام_الدار.png" alt="رِوَايَةُ حَمَامِ الدَّارِ">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/41_V1P1.html">
+          <img src="HTML-FOLDER/images/41-V1P1.png" alt="Children's Tales from around the world Volume 1 Part 1">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/42_V1P2.html">
+          <img src="HTML-FOLDER/images/42-V1P2.png" alt="Children's Tales from around the world Volume 1 Part 2">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/43_V2P1.html">
+          <img src="HTML-FOLDER/images/43-V2P1.png" alt="Children's Tales from around the world Volume 2 Part 1">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="HTML-FOLDER/44_V2P2.html">
+          <img src="HTML-FOLDER/images/44-V2P2.png" alt="Children's Tales from around the world Volume 2 Part 2">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/45_V3P1.html">
+          <img src="HTML-FOLDER/images/45-V3P1.png" alt="Children's Tales from around the world Volume 3 Part 1">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/46_V3P2.html">
+          <img src="HTML-FOLDER/images/46-V3P2.png" alt="Children's Tales from around the world Volume 3 Part 2">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/47_V4P1.html">
+          <img src="HTML-FOLDER/images/47-V4P1.png" alt="Children's Tales from around the world Volume 4 Part 1">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/48_V4P2.html">
+          <img src="HTML-FOLDER/images/48-V4P2.png" alt="Children's Tales from around the world Volume 4 Part 2">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/49_V5P1.html">
+          <img src="HTML-FOLDER/images/49-V5P1.png" alt="Children's Tales from around the world Volume 5 Part 1">
+        </a>
+      </div>
+
+     <div class="grid-item">
+        <a href="HTML-FOLDER/50_V5P2.html">
+          <img src="HTML-FOLDER/images/50-V5P2.png" alt="Children's Tales from around the world Volume 5 Part 2">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href=".html">
+          <img src="images/ .jpg" alt=" ">
+        </a>
+      </div>
+
+
+    </div>
+
+
+<footer>
+	 <div class="footer-left">
+	 <h2>قنوات التواصل:</h2>
+	  <div class="social-icons">
+	  <a href="tel:+97123056666"><img src="HTML-FOLDER/images/tel.jpg" alt="الهاتف"></a>
+	  <a href="mailto:info@zho.gov.ae"><img src="HTML-FOLDER/images/mail.jpg" alt="البريد الإلكتروني"></a>
+      <a href="https://twitter.com/zhocare"><img src="HTML-FOLDER/images/tw.jpg" alt="Twitter"></a>
+      <a href="https://www.facebook.com/zhocare"><img src="HTML-FOLDER/images/fb.jpg" alt="facebook"></a>
+	  <a href="https://www.linkedin.com/company/zhocare"><img src="HTML-FOLDER/images/in.jpg" alt="linkedin"></a>
+	  <a href="https://www.instagram.com/zhocare"><img src="HTML-FOLDER/images/insta.jpg" alt="instagram"></a>
+	  <a href="https://www.youtube.com/@mediazho"><img src="HTML-FOLDER/images/yt.jpg" alt="YouTube"></a>
+
+    </div>
+  </div>
+	
+
+	<div class="footer-right">
+		<h2>قم بتحميل التطبيقق من هنا</h2>
+		<div class="download-icons">
+    <a href="https://apps.apple.com/ca/app/zho/id961537327"><img src="HTML-FOLDER/images/appstore.jpg" alt="AppStore"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.ionicframework.zho786786&pli=1"><img src="HTML-FOLDER/images/googleplay.jpg" alt="Google Play"></a>
+  </div>
+  </div>
+</footer>
+
+</body>
+</html>
